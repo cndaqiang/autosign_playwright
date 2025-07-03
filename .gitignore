@@ -1,0 +1,7 @@
+config.yml
+sign_result.png
+sign_result*.png
+__pycache__/
+*.txt
+cookies.json
+tmp
