@@ -22,14 +22,6 @@ with sync_playwright() as p:
     browser_type = p.chromium
 
     # 启动浏览器
-    browser = browser_type.launch(
-        headless=headless,
-        args=[
-            "--start-maximized",
-            "--window-size=1920,1080"
-        ],
-    )
-
     # 通过持久化用户数据目录实现登录态复用
     # 类似 Selenium 的 user-data-dir，但 Playwright 需要用 launch_persistent_context
     context = browser_type.launch_persistent_context(
@@ -93,4 +85,3 @@ with sync_playwright() as p:
         if not headless:
             input("按回车关闭浏览器...")
         context.close()
-        browser.close()

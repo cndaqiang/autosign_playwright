@@ -28,7 +28,7 @@
 ## 配置说明
 
 * 复制 `config_example.yml` 为 `config.yml`
-* 修改 `config.yml` 中的 `browser.user_data_dir` 路径，指向你自定义的浏览器运行数据目录（用于保存登录状态等信息），**不是浏览器程序的安装目录**
+* 修改 `config.yml` 中的 `browser.user_data_dir` 路径，指向你自定义的浏览器运行数据目录（用于保存登录状态等信息）
 
 ## 使用方法
 
