@@ -35,6 +35,7 @@ with sync_playwright() as p:
 
     # ======================== 5. 遍历域名，访问并注入 cookies ========================
     for domain, cookies in all_cookies.items():
+        domain = domain.lstrip(".")  # 解决带点域名问题
         url = f"https://{domain}/"
         print(f"访问 {url} 并注入 {len(cookies)} 个 cookies...")
 
