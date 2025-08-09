@@ -84,4 +84,4 @@ with sync_playwright() as p:
         print("签到结束. 退出浏览器")
         if not headless:
             input("按回车关闭浏览器...")
-        context.close()
+        #context.close()

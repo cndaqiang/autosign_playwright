@@ -33,4 +33,4 @@ with sync_playwright() as p:
     input("按回车关闭浏览器...")
 
     # ======================== 6. 退出浏览器 ========================
-    context.close()
+    #context.close()

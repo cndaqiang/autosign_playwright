@@ -47,10 +47,10 @@
 
 ### Cookies 管理
 
-* **导出浏览器所有 cookies：**
+* **创建/导出浏览器所有 cookies：**
 
   ```
-  python tool_build_cooikes.py --all
+  python tool_build_cooikes.py --all --gui
   ```
 * **导入 cookies 并自动登录：**
 

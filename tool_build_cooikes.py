@@ -65,4 +65,5 @@ with sync_playwright() as p:
     # ======================== 7. 关闭浏览器 ========================
     if not headless:
         input("按回车关闭浏览器...")
-    context.close()
+    #context.close()
+    #这个命令会清除cooikes

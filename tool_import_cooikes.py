@@ -89,4 +89,4 @@ with sync_playwright() as p:
     # ======================== 6. 退出浏览器 ========================
     if not headless:
         input("按回车关闭浏览器...")
-    context.close()
+    #context.close()
